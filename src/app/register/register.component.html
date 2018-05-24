@@ -1,0 +1,23 @@
+<div class="container color-dark">
+
+
+</div>
+<div class="container color-light">
+  <div class="col">
+    <p class="sm">Login</p>
+
+    <form>
+      <input type="text" class="txt" name="item" placeholder="Username" [(ngModel)]="username">
+      <input type="password" class="txt" name="item" placeholder="Password" [(ngModel)]="password">
+      <input type="submit" class="btn" value="Login" (click)="addItem()">
+    </form>
+  </div>
+  <div class="col">
+    <div class="col">
+      <p>What all you can do?</p>
+    </div>
+    <p class="life-container" *ngFor="let goal of goals">
+      {{ goal }}
+    </p>
+  </div>
+</div>

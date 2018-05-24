@@ -1,0 +1,23 @@
+<div class="container color-dark">
+
+
+</div>
+<div class="container color-light">
+  <div class="col">
+    <p>Address: </p>
+    <p class="life-container">
+      Address 1 , town, city, pin
+      Address 1 , town, city, pin
+      Address 1 , town, city, pin
+      Address 1 , town, city, pin
+    </p>
+  </div>
+  <div class="col">
+    <div class="col">
+      <p>Contacts: </p>
+    </div>
+    <p class="life-container" *ngFor="let contact of contacts">
+      Name: {{ contact.name }}<br><br> Phone: {{ contact.phone }}
+    </p>
+  </div>
+</div>
