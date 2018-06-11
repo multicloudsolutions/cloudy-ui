@@ -10,6 +10,7 @@ a:hover{color:blue}
 
 /* Add a black background color to the top navigation */
 .topnav {
+    position:fixed;left:0px;top:0px;width:100%;
     top:0px;left:0px;
     background-color: #333;
     overflow: hidden;
@@ -35,4 +36,9 @@ a:hover{color:blue}
 .topnav a.active {
     background-color: #4CAF50;
     color: white;
+}
+
+.sidebar{
+  left:0px;
+  top:100px;
 }
