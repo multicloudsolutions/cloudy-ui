@@ -9,6 +9,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { NavComponent } from './nav/nav.component';
 import { ContentComponent } from './content/content.component';
 import { OverviewComponent } from './overview/overview.component';
+import { UsersAndTeamsComponent } from './users-and-teams/users-and-teams.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { OverviewComponent } from './overview/overview.component';
     DashboardComponent,
     NavComponent,
     ContentComponent,
-    OverviewComponent
+    OverviewComponent,
+    UsersAndTeamsComponent
   ],
   imports: [
     BrowserModule,
