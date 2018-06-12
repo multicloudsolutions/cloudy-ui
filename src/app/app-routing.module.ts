@@ -5,6 +5,7 @@ import { AboutComponent } from './about/about.component';
 import { DashboardComponent} from './dashboard/dashboard.component';
 import { UsersAndTeamsComponent } from './users-and-teams/users-and-teams.component';
 import { OverviewComponent } from './overview/overview.component';
+import { ProviderComponent } from './provider/provider.component';
 
 const routes: Routes = [
   {
@@ -20,7 +21,8 @@ const routes: Routes = [
     component: DashboardComponent,
     children: [
       {path: 'users', component: UsersAndTeamsComponent},
-      {path: 'dashboard', component: OverviewComponent}
+      {path: 'dashboard', component: OverviewComponent},
+      {path: 'provider', component: ProviderComponent}
     ]
   },
 ];

@@ -10,6 +10,7 @@ import { NavComponent } from './nav/nav.component';
 import { ContentComponent } from './content/content.component';
 import { OverviewComponent } from './overview/overview.component';
 import { UsersAndTeamsComponent } from './users-and-teams/users-and-teams.component';
+import { ProviderComponent } from './provider/provider.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { UsersAndTeamsComponent } from './users-and-teams/users-and-teams.compon
     NavComponent,
     ContentComponent,
     OverviewComponent,
-    UsersAndTeamsComponent
+    UsersAndTeamsComponent,
+    ProviderComponent
   ],
   imports: [
     BrowserModule,
