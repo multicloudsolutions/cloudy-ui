@@ -11,6 +11,7 @@ import { ContentComponent } from './content/content.component';
 import { OverviewComponent } from './overview/overview.component';
 import { UsersAndTeamsComponent } from './users-and-teams/users-and-teams.component';
 import { ProviderComponent } from './provider/provider.component';
+import { TemplatesComponent } from './templates/templates.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ProviderComponent } from './provider/provider.component';
     ContentComponent,
     OverviewComponent,
     UsersAndTeamsComponent,
-    ProviderComponent
+    ProviderComponent,
+    TemplatesComponent
   ],
   imports: [
     BrowserModule,

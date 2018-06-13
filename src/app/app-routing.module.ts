@@ -6,6 +6,7 @@ import { DashboardComponent} from './dashboard/dashboard.component';
 import { UsersAndTeamsComponent } from './users-and-teams/users-and-teams.component';
 import { OverviewComponent } from './overview/overview.component';
 import { ProviderComponent } from './provider/provider.component';
+import { TemplatesComponent } from './templates/templates.component';
 
 const routes: Routes = [
   {
@@ -22,7 +23,8 @@ const routes: Routes = [
     children: [
       {path: 'users', component: UsersAndTeamsComponent},
       {path: 'dashboard', component: OverviewComponent},
-      {path: 'provider', component: ProviderComponent}
+      {path: 'provider', component: ProviderComponent},
+      {path: 'templates', component: TemplatesComponent}
     ]
   },
 ];
